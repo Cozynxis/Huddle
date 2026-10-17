@@ -24,3 +24,9 @@ Supabase Auth + PostgreSQL + Row Level Security, realtime channels, profiel- en 
 
 ### Branding
 Het gekozen Huddle-logo wordt als apart afbeeldingsbestand toegevoegd zodra het als repository-asset is geplaatst; de huidige interface gebruikt tijdelijk een H-monogram.
+
+## Versie 0.2 — uitgebreidere browserinterface
+
+Nieuw: lokale DM-gesprekken, emoji-reacties, berichten bewerken, vastpinnen, doorzoeken, licht/donker-thema, kanalen hernoemen/verwijderen, status wijzigen, JSON-back-up en Ctrl+K om te zoeken.
+
+**Grenzen:** DM's zijn lokale simulaties, niet bezorgd aan andere personen. Voice/video, veilige login, server-side moderatie, bestanden en realtime synchronisatie zijn nog niet gebouwd. Voor productie is een backend met authenticatie en database-permissies nodig.
