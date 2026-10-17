@@ -39,3 +39,11 @@ Nieuw: lokale DM-gesprekken, emoji-reacties, berichten bewerken, vastpinnen, doo
 - Community-menu, kanaalacties, zoektoegang, ledenpaneel-toggle en notificatie-toggle.
 
 **Let op:** knoppen voor uploads, echte uitnodigingen, GIF-provider en stickers tonen voorlopig een melding of placeholder. Dit is nog een lokale demo zonder realtime backend. De wijzigingen zijn naar GitHub geschreven, maar nog niet end-to-end in een browser getest.
+
+## Huddle v0.4 — volledige UI-herbouw
+
+De homepage gebruikt nu `huddle.css` en `huddle.js`. De oudere CSS/JS-bestanden blijven voorlopig in de repo als geschiedenis maar worden niet meer ingeladen.
+
+Nieuwe vierkoloms interface met serverrail, serverbanner, kanalen, DM-navigatie, chatheader, berichtacties, ledenpaneel, rollenweergave, emoji-menu, pollkaarten, zoekdialoog en responsive gedrag. Lokale berichten, servers, kanalen, reacties, polls en profielstatus worden opgeslagen in `localStorage`.
+
+**Demo-beperkingen:** de voorbeeldleden en hun statussen zijn fictieve UI-data. Voice, uploads, uitnodigingen, echte accounts en berichtbezorging tussen gebruikers zijn nog niet geïmplementeerd. Dit is geen beveiligde productieapp. De code is geüpload maar niet automatisch end-to-end getest.
