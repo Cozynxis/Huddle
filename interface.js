@@ -16,7 +16,7 @@ if(composer&&!composer.querySelector('.hd-composer')){const input=composer.query
 const main=document.querySelector('.main');if(main&&state.view!=='dm'&&!main.querySelector('.hd-banner')&&channel().id==='general'&&!(state.messages[channel().id]||[]).length){const m=main.querySelector('.messages');if(m)m.insertAdjacentHTML('afterbegin','<div class="hd-banner"><div><h2>Welcome to '+escapeText(server().name)+' ✨</h2><p>Bring your community together, create channels and start talking.</p></div><button data-hd="invite">Invite friends</button></div>')}
 const actions=document.querySelector('.top .actions');if(actions&&!actions.querySelector('[data-hd="members"]'))actions.insertAdjacentHTML('afterbegin','<button class="iconbtn" data-hd="members" title="Toggle member list">♙</button><button class="iconbtn" data-hd="notifications" title="Notifications">♧</button>');
 }
-const escapeText=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;':'&quot;'}[c]));
+const escapeText=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 render=function(){closePopup();oldRender();enhance()};enhance();
 function toast(msg){document.querySelector('.hd-toast')?.remove();const e=document.createElement('div');e.className='hd-toast';e.textContent=msg;document.body.append(e);setTimeout(()=>e.remove(),2600)}
 function closePopup(){popup?.remove();popup=null}
