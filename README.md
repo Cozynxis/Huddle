@@ -30,3 +30,12 @@ Het gekozen Huddle-logo wordt als apart afbeeldingsbestand toegevoegd zodra het 
 Nieuw: lokale DM-gesprekken, emoji-reacties, berichten bewerken, vastpinnen, doorzoeken, licht/donker-thema, kanalen hernoemen/verwijderen, status wijzigen, JSON-back-up en Ctrl+K om te zoeken.
 
 **Grenzen:** DM's zijn lokale simulaties, niet bezorgd aan andere personen. Voice/video, veilige login, server-side moderatie, bestanden en realtime synchronisatie zijn nog niet gebouwd. Voor productie is een backend met authenticatie en database-permissies nodig.
+
+## v0.3 — interface overhaul
+
+- Nieuwe CSS-laag met verbeterde layout, hover-states, responsive aanpassingen en een vernieuwde composer.
+- Emoji-picker, actie-/bijlagenmenu, opmaakvoorstellen en een poll-tekstsjabloon.
+- Uitgebreid instellingenvenster voor displaynaam, status, thema, lokale export en reset.
+- Community-menu, kanaalacties, zoektoegang, ledenpaneel-toggle en notificatie-toggle.
+
+**Let op:** knoppen voor uploads, echte uitnodigingen, GIF-provider en stickers tonen voorlopig een melding of placeholder. Dit is nog een lokale demo zonder realtime backend. De wijzigingen zijn naar GitHub geschreven, maar nog niet end-to-end in een browser getest.
